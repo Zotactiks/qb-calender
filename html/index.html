@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calendar">
+        <img id="calendar-image" src="images/january.jpg" alt="Month Image">
+        <div id="calendar-grid"></div>
+        <button id="add-event-btn">Add Event</button>
+        <button id="close-btn">Close</button>
+    </div>
+
+    <div id="event-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add Event</h2>
+            <input type="date" id="event-date">
+            <input type="text" id="event-title" placeholder="Event Title">
+            <div id="global-event-container">
+                <label for="global-event">Make Global Event</label>
+                <input type="checkbox" id="global-event">
+            </div>
+            <button id="save-event-btn">Save Event</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
