@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'YourName'
+author 'Zotactiks'
 description 'QB-Calendar'
 version '1.0.0'
 
